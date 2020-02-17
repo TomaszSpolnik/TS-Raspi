@@ -2,7 +2,7 @@
 
 while true
 
-do uptime >> uptime_temperature.txt
+do uptime -s >> uptime_temperature.txt
 sleep 7200
 
 done &
